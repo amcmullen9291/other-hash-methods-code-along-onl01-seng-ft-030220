@@ -8,5 +8,5 @@ groceries = {
  }
 
 def get_the_min(groceries)
-  groceries.sort.min 
+  groceries.keys.min 
 end
